@@ -14,13 +14,13 @@ router.get('/', (req, res) => {
  
  router.get('/:id', (req,res) => {
      
-     db.readBook(req,res);
+     db.readPlayer(req,res);
  
  })
  
  router.delete('/:id',(req, res) => {
   
-   db.deleteBook(req, res);
+   db.deletePlayer(req, res);
  
  })
 

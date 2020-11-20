@@ -16,7 +16,6 @@ const PlayerSchema = new Schema({
 ,{toJSON: {virtuals: true}})
 
 PlayerSchema.virtual('uri').get(function()  {
-
 return `/players/${this._id}`;
 });
 
