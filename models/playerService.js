@@ -1,4 +1,3 @@
-
 import { Player } from "./PlayerModel";
 
 function readPlayers(req, res, options = []) {
